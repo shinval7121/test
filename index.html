@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test sản lượng</title>
+</head>
+
+<body>
+    <h1>ádssdasdsadsa</h1>
+    <h2>ádssdasdsadsa</h2>
+    <h3>ádssdasdsadsa</h3>
+    <h4>ádssdasdsadsa</h4>
+    <h5>ádssdasdsadsa</h5>
+    <h6>ádssdasdsadsa</h6>
+    <p>fghjkj</p>
+    <label for="">UPH before</label>
+    <input id="UPHB" type="text">
+    <label for="">MP before</label>
+    <input id="MPB" type="text">
+    <label for="">UPH after</label>
+    <input id="UPHA" type="text">
+    <label for="">MP after</label>
+    <input id="MPA" type="text">
+    <button id="button">Tinh toan</button>
+    <div id="ketqua">Ket qua la:</div>
+    <script>
+button.onclick=()=>{
+var uphb=document.getElementById("UPHB").value;
+console.log("Gia tri UPH before la: "+uphb)
+var upha=document.getElementById("UPHA").value;
+console.log("Gia tri UPH before la: "+upha)
+var mpa=document.getElementById("MPA").value;
+console.log(mpa)
+var mpb=document.getElementById("MPB").value;
+console.log(mpb)
+document.getElementById("ketqua").innerHTML=(mpb/uphb)-(mpa/upha)
+
+
+}
+
+
+    </script>
+
+</body>
+
+</html>
